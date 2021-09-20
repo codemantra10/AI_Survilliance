@@ -1,0 +1,36 @@
+<html>
+<head>
+
+	<title>AI Video Surveillance</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAApJaO/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+fb2/o2Njf9gYWH/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACoqan9jIyM/19gYP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKqrq/2Li4v/X2Bg/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAq6ys/ouLi/9eX1//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACrrKz+ioqK/1xdXf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKytrf7Eu7b/o5GI//n4+v/BfylUw38lRMKBJTeXdmT+39PO/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/Pr6/8m6sv/DgSRfw38lUsN/JUTCgSU3wn8kKsGDIx35+Pn/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO7m5P/DgSVsw4EkX8N/JVLDfyVEwoElN8J/JCrBgyMdv38vEH2DPgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACWdWL/w4ElbMOBJF/DfyVSw38lRMKBJTfCfyQqwYMjHb9/LxDy6+n/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAw4AlecOBJWzDgSRfw38lUsN/JUTCgSU3wn8kKsGDIx2/fy8QuKuj/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMN/JnjLl0gx8N7IZ/Pm1nHx489cwoElN8J/JCrBgyMdv38vEMW2rv8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADNv7X/w4IjK/To1Xv06tt69u3gdvLm01LCfyQqwYMjHb9/LxDy6+r/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMOCIyvFhCwn9Orbevbt4Hb27N5jw4ceEcGDIx2ffmz2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADZysL/wn8mJsGDJiH27eB21qpwIMOHHhGgfWr8foM9AwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD49/j/vrCo/8W2rv/18O7/AAAAAAAAAAAAAAAAv/8AAB//AACP/wAAx/8AAOP/AADx/wAA+HMAAPz9AAD9/wAA/f4AAP/+AAD//gAA/f4AAP/9AAD++wAA/4cAAA==" rel="icon" type="image/x-icon" />
+</head>
+
+<body>
+<center>
+<u class="btn btn-warning" id="header">AI Video Surveillance</u>
+<button onclick="start()">Start/Stop</button>
+<h3 id="num_obj_detected">Number Of Objects Detected:</h3>
+<h3 id="status">Status:Object(s) Undetected</h3>
+</center>
+<u id="footer">Made By-Sahas Smarties</u>
+<script src="main.js"></script>
+
+</body>
+
+</html>
